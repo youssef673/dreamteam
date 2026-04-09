@@ -36,4 +36,3 @@ sectionsToReveal.forEach((element) => {
   element.classList.add("reveal");
   observer.observe(element);
 });
-
