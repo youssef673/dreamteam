@@ -7,7 +7,9 @@ const quotes = [
 
 const quoteText = document.getElementById("quote-text");
 const quoteButton = document.getElementById("quote-button");
-const sectionsToReveal = document.querySelectorAll(".panel, .impact-card, .quote-box, .cta-box");
+const sectionsToReveal = document.querySelectorAll(
+  ".panel, .impact-card, .criteria-card, .media-panel, .deck-slide, .quote-box, .cta-box"
+);
 
 let quoteIndex = 0;
 
@@ -34,3 +36,4 @@ sectionsToReveal.forEach((element) => {
   element.classList.add("reveal");
   observer.observe(element);
 });
+
