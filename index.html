@@ -1,72 +1,249 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="it">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Doveri dei cittadini — Risorse, immagini e condivisione</title>
-  <link rel="stylesheet" href="assets/styles.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Palma Green Falcone Borsellino</title>
+  <meta
+    name="description"
+    content="Un sito dedicato al valore sociale dello sport locale: giovani, inclusione e rispetto reciproco."
+  >
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap"
+    rel="stylesheet"
+  >
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header class="site-header">
-    <div class="wrap header-grid">
-      <div>
-        <h1 id="siteTitle">Doveri dei cittadini</h1>
-        <p class="lead" id="siteLead">Un testo unico con riferimenti legislativi, immagini, risorse e strumenti per condividere e commentare.</p>
+  <header class="hero">
+    <nav class="topbar">
+      <div class="brand">
+        <span class="brand-mark">PG</span>
+        <span class="brand-text">Palma Green Falcone Borsellino</span>
+      </div>
+      <a class="nav-link" href="#missione">Scopri il progetto</a>
+    </nav>
+
+    <div class="hero-content">
+      <div class="hero-copy">
+        <p class="eyebrow">Hackathon civico e sportivo</p>
+        <h1>Lo sport locale che unisce, accoglie e fa crescere.</h1>
+        <p class="hero-text">
+          Palma Green Falcone Borsellino racconta il valore di una realta sportiva
+          capace di trasformare il campo in un luogo di incontro, inclusione e rispetto.
+        </p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#storia">Leggi la storia</a>
+          <a class="button button-secondary" href="#impatto">Guarda l'impatto</a>
+        </div>
       </div>
 
-      <div class="controls-top" aria-hidden="false">
-        <div class="lang-switch" role="tablist" aria-label="Selezione lingua">
-          <button id="btn-it" class="lang active" data-lang="it">IT</button>
-          <button id="btn-en" class="lang" data-lang="en">EN</button>
-        </div>
-        <div class="share-buttons">
-          <a id="shareTwitter" class="share" href="#" title="Condividi su Twitter">Twitter</a>
-          <a id="shareFacebook" class="share" href="#" title="Condividi su Facebook">Facebook</a>
-          <a id="shareWhatsapp" class="share" href="#" title="Condividi su WhatsApp">WhatsApp</a>
-        </div>
-      </div>
+      <aside class="hero-card">
+        <p class="card-label">Valori in primo piano</p>
+        <ul class="value-list">
+          <li>Aggregazione giovanile</li>
+          <li>Inclusione sociale</li>
+          <li>Rispetto reciproco</li>
+          <li>Legalita e cittadinanza</li>
+        </ul>
+      </aside>
     </div>
   </header>
 
-  <nav class="toc wrap" aria-label="Sommario">
-    <strong id="tocTitle">Sommario</strong>
-    <ul id="tocList">
-      <!-- generato da script -->
-    </ul>
-  </nav>
+  <main>
+    <section class="section intro" id="missione">
+      <div class="section-heading">
+        <p class="section-tag">La missione</p>
+        <h2>Una squadra puo diventare una comunita.</h2>
+      </div>
+      <div class="intro-grid">
+        <article class="panel">
+          <h3>Un punto di riferimento</h3>
+          <p>
+            In un territorio dove i giovani hanno bisogno di spazi veri in cui sentirsi accolti,
+            una realta sportiva locale puo offrire presenza, ascolto e appartenenza.
+          </p>
+        </article>
+        <article class="panel">
+          <h3>Oltre il risultato</h3>
+          <p>
+            Allenarsi insieme significa imparare costanza, fiducia e collaborazione:
+            qualita che restano anche fuori dal campo.
+          </p>
+        </article>
+        <article class="panel">
+          <h3>Un messaggio concreto</h3>
+          <p>
+            Il richiamo a Falcone e Borsellino rafforza un'idea semplice ma potente:
+            crescere nel rispetto delle regole e nella responsabilita verso gli altri.
+          </p>
+        </article>
+      </div>
+    </section>
 
-  <main class="wrap article" id="main">
-    <!-- Content verrà inserito dal JS per la lingua selezionata -->
-    <div id="contentContainer"></div>
+    <section class="section story" id="storia">
+      <div class="story-layout">
+        <div>
+          <p class="section-tag">La storia</p>
+          <h2>Palma Green come palestra di cittadinanza.</h2>
+        </div>
+        <div class="story-copy">
+          <p>
+            Palma Green Falcone Borsellino non rappresenta solo una squadra o un'associazione,
+            ma un luogo in cui ragazzi e ragazze possono incontrarsi, fare esperienza di gruppo
+            e sentirsi parte di qualcosa di positivo.
+          </p>
+          <p>
+            Ogni allenamento diventa un'occasione per imparare a rispettare i compagni,
+            ascoltare chi guida il gruppo e riconoscere il valore dell'impegno quotidiano.
+            In questo modo, lo sport si trasforma in uno strumento educativo e sociale.
+          </p>
+        </div>
+      </div>
+    </section>
 
-    <section id="legislazione" class="article-section">
-      <h2 id="legTitle">Riferimenti legislativi</h2>
-      <p id="legIntro">Link utili ai testi costituzionali e ad altri riferimenti normativi.</p>
+    <section class="section impact" id="impatto">
+      <div class="section-heading">
+        <p class="section-tag">Impatto sul territorio</p>
+        <h2>Tre modi in cui lo sport cambia davvero la vita dei giovani.</h2>
+      </div>
 
-      <ul class="resources">
-        <li><a id="link-costituzione" href="https://www.senato.it/1025?sezione=121" target="_blank" rel="noopener noreferrer">Costituzione della Repubblica Italiana — Senato della Repubblica</a>
-          <p class="muted">Art. 2: doveri inderogabili di solidarietà politica, economica e sociale; vedi il testo costituzionale.</p>
-        </li>
+      <div class="impact-grid">
+        <article class="impact-card">
+          <span class="impact-number">01</span>
+          <h3>Aggrega</h3>
+          <p>
+            Offre un'alternativa concreta all'isolamento, creando legami, amicizie
+            e momenti di condivisione.
+          </p>
+        </article>
+        <article class="impact-card">
+          <span class="impact-number">02</span>
+          <h3>Include</h3>
+          <p>
+            Supera differenze economiche, culturali e sociali: in campo conta la persona,
+            non la sua provenienza.
+          </p>
+        </article>
+        <article class="impact-card">
+          <span class="impact-number">03</span>
+          <h3>Educa al rispetto</h3>
+          <p>
+            Insegna a vivere le regole non come limite, ma come base della convivenza
+            e del reciproco riconoscimento.
+          </p>
+        </article>
+      </div>
+    </section>
 
-        <li><a id="link-eu-charter" href="https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:12012P/TXT" target="_blank" rel="noopener noreferrer">Carta dei Diritti Fondamentali dell'Unione Europea</a>
-          <p class="muted">Principi europei sui diritti e le libertà fondamentali.</p>
-        </li>
+    <section class="section criteria" id="criteri">
+      <div class="section-heading">
+        <p class="section-tag">Criteri del progetto</p>
+        <h2>Un sito pensato per contenuti, tecnica e impatto comunicativo.</h2>
+      </div>
 
-        <li><a id="link-un" href="https://www.un.org/en/about-us/universal-declaration-of-human-rights" target="_blank" rel="noopener noreferrer">Dichiarazione Universale dei Diritti Umani — ONU</a>
-          <p class="muted">Riferimento internazionale per i diritti umani fondamentali.</p>
-        </li>
+      <div class="criteria-grid">
+        <article class="criteria-card">
+          <span class="impact-number">01</span>
+          <h3>Contenuti</h3>
+          <p>
+            Il racconto valorizza una realta sportiva locale come spazio educativo,
+            rielaborando il tema in chiave civile, sociale e territoriale.
+          </p>
+        </article>
+        <article class="criteria-card">
+          <span class="impact-number">02</span>
+          <h3>Realizzazione tecnica</h3>
+          <p>
+            Il sito e responsive, ordinato e pronto a integrare testo, PowerPoint,
+            video e altri materiali in una narrazione unica e coerente.
+          </p>
+        </article>
+        <article class="criteria-card">
+          <span class="impact-number">03</span>
+          <h3>Qualita comunicativa</h3>
+          <p>
+            Il messaggio e diretto: lo sport locale non e solo competizione,
+            ma inclusione, legalita e crescita condivisa.
+          </p>
+        </article>
+      </div>
+    </section>
 
-        <li><a id="link-github-issue" href="https://github.com/youssef673/doveri/issues/new?title=Commento%20sito%20Doveri%20dei%20cittadini&body=Scrivi%20qui%20il%20tuo%20commento%20o%20segnalazione." target="_blank" rel="noopener noreferrer">Commenta su GitHub (apri una issue)</a>
-          <p class="muted">Usa questa scorciatoia per inviare commenti o suggerimenti direttamente come issue nel repository.</p>
-        </li>
-      </ul>
+    <section class="section media-showcase" id="media">
+      <div class="section-heading">
+        <p class="section-tag">Cross-medialita</p>
+        <h2>Uno spazio pronto per PowerPoint, video e contenuti narrativi.</h2>
+      </div>
+
+      <div class="media-grid">
+        <article class="media-panel media-panel-accent">
+          <h3>Presentazione</h3>
+          <p>
+            Qui inseriremo il PowerPoint trasformandolo in una galleria web o in
+            una sequenza di slide consultabili direttamente online.
+          </p>
+          <span class="media-badge">In arrivo</span>
+        </article>
+        <article class="media-panel">
+          <h3>Video-racconto</h3>
+          <p>
+            Questa sezione ospitera il video del progetto per rafforzare il coinvolgimento
+            emotivo e mostrare volti, luoghi e testimonianze.
+          </p>
+          <span class="media-badge">In arrivo</span>
+        </article>
+      </div>
+    </section>
+
+    <section class="section ai-section" id="ai">
+      <div class="story-layout">
+        <div>
+          <p class="section-tag">Uso degli strumenti AI</p>
+          <h2>Tecnologia al servizio del messaggio.</h2>
+        </div>
+        <div class="story-copy">
+          <p>
+            L'intelligenza artificiale viene usata come supporto creativo e progettuale:
+            per strutturare i contenuti, migliorare la presentazione visiva e preparare
+            una comunicazione piu chiara e accessibile.
+          </p>
+          <p>
+            Il valore del progetto resta umano: il centro non e la tecnologia in se,
+            ma la capacita di raccontare meglio una realta sportiva che genera inclusione
+            e rispetto reciproco nel territorio.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section quote-section">
+      <blockquote class="quote-box">
+        <p id="quote-text">
+          "Lo sport non forma solo atleti: forma persone consapevoli, solidali e capaci di costruire un futuro migliore."
+        </p>
+        <button class="quote-button" id="quote-button" type="button">Cambia messaggio</button>
+      </blockquote>
+    </section>
+
+    <section class="section cta">
+      <div class="cta-box">
+        <p class="section-tag">Messaggio finale</p>
+        <h2>Una realta sportiva locale puo essere il primo passo verso una comunita piu unita.</h2>
+        <p>
+          Palma Green Falcone Borsellino dimostra che lo sport puo essere energia sociale,
+          educazione alla legalita e occasione concreta di crescita per i giovani.
+        </p>
+      </div>
     </section>
   </main>
 
-  <footer class="site-footer wrap">
-    <small id="footerNote">Creato per la presentazione sui doveri civici. Immagini SVG incluse nella cartella assets/images. Lingue: italiano / inglese.</small>
+  <footer class="footer">
+    <p>Progetto web ispirato alla traccia: sport locale, inclusione e rispetto reciproco.</p>
   </footer>
 
-  <script src="assets/script.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
